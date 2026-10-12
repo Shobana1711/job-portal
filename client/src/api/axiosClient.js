@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api/v1';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://job-portal-1-u8jw.onrender.com/api/v1';
 
 const axiosClient = axios.create({
   baseURL: BASE_URL,
